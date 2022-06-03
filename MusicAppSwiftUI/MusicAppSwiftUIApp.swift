@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct OwnOffSwiftUIApp: App {
+struct MusicAppSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeScreenView()
         }
     }
 }
